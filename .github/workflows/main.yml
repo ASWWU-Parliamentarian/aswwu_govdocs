@@ -9,12 +9,12 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: Constitution-Main.tex
+          root_file: ASWWU_Constitution.tex
           latexmk_use_xelatex: true
       - name: Display structure of downloaded files
         run: |
           git config --global user.email "ASWWU.Parliamentarian@wallawalla.edu"
           git config --global user.name "ASWWU-Parliamentarian"
-          git add Constitution-Main.pdf
+          git add ASWWU_Constitution.pdf
           git commit -m "Last built at $(date)"
           git push

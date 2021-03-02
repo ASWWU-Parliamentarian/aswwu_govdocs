@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: beta.tex
+          root_file: Constitution-Main.tex
           latexmk_use_xelatex: true
       - name: Display structure of downloaded files
         run: |

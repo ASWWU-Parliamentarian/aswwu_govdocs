@@ -54,6 +54,7 @@ Therefore, below is a snippet of a passage from the Bylaws (not updated) to illu
 | Ampersand Symbol | \\&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \\& Resource Management |
 | Number Superscripts | \nth{#}    | To type have a nicely typeset 1st or 2nd, with the postfix as a superscript, use this command | Today was little John's \nth{4} birthday! |
 | Italics   | \textit{X} | Italics can be typeset by placing the desired italicized words in place of "X" | Refer to \textit{Robert's Rules of Order} for the process to...|
+| Bold | \textbf{X} | Words or phrases can be made bold through this function | This is the absoluate \textbf{BEST} ice cream in Walla Walla |
 | Em-dash | --- | For a long "em-dash" type three normal dashes | That was amazing---literally, so cool! |
 
 

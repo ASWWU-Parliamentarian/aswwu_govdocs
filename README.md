@@ -14,8 +14,12 @@ The documents in this repository are built on a document preparation software an
 Within this framework, there are 6 levels of section hierachies:
 | Depth | Section Name | Syntax with Title | Syntax without Title | Usage example |
 | ------| ----------- | ------------ | ---------- | ------------ |
-| 0 | Title | \title[X] | \title | \title[Introduction] This is an introduction... / \title This is an introduction... |
-| 1 | Article | \article[X] | \article | \article[Assembly] Now, regarding assemblies... |
+| 0 | Title | \title[X] | \title | \title[Habitant] This is an introduction... OR \title This is an introduction... |
+| 1 | Article | \article[X] | \article | \article[Tempus] Lorem ipsum dolor sit amet |
+| 2 | Section | \section[X] | \section | \article[Turpis] Lorem ipsum dolor sit amet|
+| 3 | Subsection | \subsection[X] | \subsection | \subsection[Maximus] Lorem ipsum dolor sit amet |
+| 4 | Paragraph | \paragraph[X] | \paragraph | \paragraph[Donec] Lorem ipsum dolor sit amet |
+| 5 | Subparagraph | \subparagraph[X] | \subparagraph | \subparagraph[Mauris] Lorem ipsum dolor sit amet |
 
 
 ### Useful LaTeX Commands

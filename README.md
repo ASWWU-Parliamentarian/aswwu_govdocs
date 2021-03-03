@@ -23,22 +23,22 @@ Within this framework, there are 6 levels of section hierachies:
 
 Therefore, below is a snippet of a passage from the Bylaws (not updated) to illustrate how this syntax is used:
 ~~~
-    \article[External Relations]
-            \section[Adventist Intercollegiate Association]
-                \subsection[Purpose]
-                    \paragraph The Adventist Intercollegiate Association (AIA) is a self-governing body with membership consisting of the student governments from all North American Seventh-day Adventist (SDA) colleges and universities. Its purpose is to, first, provide a forum for the discussion of shared collegiate concerns and a united voice in expressing these concerns to those in positions to bring results, and, second, to provide workshops for the exchange of ideas between colleges in order to foster activities. AIA's activities occur at an annual convention held in early spring.
-                \subsection[Relations with AIA]
-                    \paragraph The ASWWU is a member of AIA, and as such it is responsible for paying annual dues as specified in the AIA Bylaws.
-                \subsection[Delegate Selection]
-                    \paragraph The delegates to AIA's annual convention are selected by the President and are ratified by Senate.
-                    \paragraph In order to properly represent the entire ASWWU student government, delegates to the AIA convention must be selected to represent each of the following ASWWU branches:
-                        \subparagraph \textbf{Executive:} Outgoing and incoming Presidents
-                        \subparagraph \textbf{Legislative:} Outgoing and incoming Executive Vice Presidents
-                        \subparagraph \textbf{Social:} Outgoing and incoming Social Vice Presidents
-                        \subparagraph \textbf{Spiritual:} Outgoing and incoming Spiritual Vice Presidents
-                    \paragraph Exceptions may be approved by Senate when circumstances warrant and when requested by the President.
-                    \paragraph A complete list of proposed delegates must be submitted to Senate for ratification by the next full week after ASWWU elections.
-                    \paragraph The ASWWU Sponsor must attend the convention with the ASWWU delegates, but in cases where this is not possible, he/she should appoint a faculty or staff member as the trip advisor.
+\article[External Relations]
+        \section[Adventist Intercollegiate Association]
+            \subsection[Purpose]
+                \paragraph The Adventist Intercollegiate Association (AIA) is a self-governing body with membership consisting of the student governments from all North American Seventh-day Adventist (SDA) colleges and universities. Its purpose is to, first, provide a forum for the discussion of shared collegiate concerns and a united voice in expressing these concerns to those in positions to bring results, and, second, to provide workshops for the exchange of ideas between colleges in order to foster activities. AIA's activities occur at an annual convention held in early spring.
+            \subsection[Relations with AIA]
+                \paragraph The ASWWU is a member of AIA, and as such it is responsible for paying annual dues as specified in the AIA Bylaws.
+            \subsection[Delegate Selection]
+                \paragraph The delegates to AIA's annual convention are selected by the President and are ratified by Senate.
+                \paragraph In order to properly represent the entire ASWWU student government, delegates to the AIA convention must be selected to represent each of the following ASWWU branches:
+                    \subparagraph \textbf{Executive:} Outgoing and incoming Presidents
+                    \subparagraph \textbf{Legislative:} Outgoing and incoming Executive Vice Presidents
+                    \subparagraph \textbf{Social:} Outgoing and incoming Social Vice Presidents
+                    \subparagraph \textbf{Spiritual:} Outgoing and incoming Spiritual Vice Presidents
+                \paragraph Exceptions may be approved by Senate when circumstances warrant and when requested by the President.
+                \paragraph A complete list of proposed delegates must be submitted to Senate for ratification by the next full week after ASWWU elections.
+                \paragraph The ASWWU Sponsor must attend the convention with the ASWWU delegates, but in cases where this is not possible, he/she should appoint a faculty or staff member as the trip advisor.
 ~~~
 
 ### Useful LaTeX Commands

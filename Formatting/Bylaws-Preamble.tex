@@ -213,8 +213,8 @@
     \refstepcounter{subparagraph}%
     \noindent
     \begingroup
-    \leavevmode\normalsize\bfseries\raggedright
-    \rlap{\thesubparagraph}%
+    \leavevmode\normalsize\raggedright
+    \rlap{\thesubparagraph}\bfseries%
     \hspace{18mm} %Article \Roman{subsection}. \hspace{0.1mm} %
     #1
     %\par
@@ -222,7 +222,7 @@
     %\addcontentsline{toc}{subparagraph}{\protect\numberline{\thesubparagraph}#1}
     %\vskip 0ex \nobreak
     %\removelastskip
-    \leftskip=4mm%\relax%
+    \leftskip=35mm%\relax%
 }
 \def\subparagraphNoTitle{
     \ifhmode\par\fi

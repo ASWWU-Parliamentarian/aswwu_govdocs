@@ -10,12 +10,12 @@ The documents in this repository are built on a document preparation software an
 - **Custom and consistent presentation:** LaTeX is a markup language that handles typesetting and rendering. It can be configured with custom macros that defines new environments and commands. This allows for design flexibility to obtain a professional and well-organized layout of the governing documents. Additionally, the style and layout of documents can be easily replicated to other documents for consistently of appearance and navigation.
 
 ### Useful LaTeX Commands
-| Syntax    | Description   | Usage Example   |
-| --------- | ------------- | --------- |
-| \\$        | To type a dollar sign, you must have a backslash before the dollar sign symbol | The Atlas must retain \\$3000 of income in... |
-| \\&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \\& Resource Management |
-| \nth{#}    | To type have a nicely typeset 1st or 2nd, with the postfix as a superscript, use this command | Today was little John's \nth{4} birthday! |
-| \textit{X} | Italics can be typeset by placing the desired italicized words in place of "X" | Refer to \textit{Robert's Rules of Order} for the process to...|
+| Title     | Syntax    | Description   | Usage Example   |
+|---------  | --------- | ------------- | --------- |
+| Dollar Sign | \\$        | To type a dollar sign, you must have a backslash before the dollar sign symbol | The Atlas must retain \\$3000 of income in... |
+| Ampersand Symbol | \\&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \\& Resource Management |
+| Number Superscripts | \nth{#}    | To type have a nicely typeset 1st or 2nd, with the postfix as a superscript, use this command | Today was little John's \nth{4} birthday! |
+| Italics   | \textit{X} | Italics can be typeset by placing the desired italicized words in place of "X" | Refer to \textit{Robert's Rules of Order} for the process to...|
 
 
 # Structure

@@ -50,6 +50,7 @@ Therefore, below is a snippet of a passage from the Bylaws (not updated) to illu
 ### Useful LaTeX Commands
 | Title     | Syntax    | Description   | Usage Example   |
 |---------  | --------- | ------------- | --------- |
+| Comments | % | To add comments in the .tex file that won't appear in the finished product, place a '%' at the beginning of the line and then type anything following it | %This section is to describe the nature of ASWWU |
 | Dollar Sign | \\$        | To type a dollar sign, you must have a backslash before the dollar sign symbol | The Atlas must retain \\$3000 of income in... |
 | Ampersand Symbol | \\&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \\& Resource Management |
 | Number Superscripts | \nth{#}    | To type have a nicely typeset 1st or 2nd, with the postfix as a superscript, use this command | Today was little John's \nth{4} birthday! |

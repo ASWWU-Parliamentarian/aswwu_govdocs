@@ -12,7 +12,7 @@ The documents in this repository are built on a document preparation software an
 ### Section Hierarchy
 
 Within this framework, there are 6 levels of section hierachies:
-| Depth | Section Name | Syntax with Title | Syntax without Title | Usage example |
+| Depth | Section Name | Syntax with Title (X) | Syntax without Title | Usage example |
 | ------| ----------- | ------------ | ---------- | ------------ |
 | 0 | Title | \title[X] | \title | \title[Habitant] This is an introduction... OR \title This is an introduction... |
 | 1 | Article | \article[X] | \article | \article[Tempus] Lorem ipsum dolor sit amet |

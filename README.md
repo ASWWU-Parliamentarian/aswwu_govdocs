@@ -82,15 +82,6 @@ The repository is split up into the following sections.
     - ***ASWWU_Senate_Procedural_Rules.pdf*** - The presentable and typeset version of the Senate Procedural Rules.
     - ***ASWWU_Senate_Procedural_Rules.tex*** - The raw content of the Senate Procedural Rules, where amendments will be made.
 
-# Training
-
-- "$" sign
-- Using square brackets for titles []
-- "&" sign
-- \nth{}
-- Italics
-- Em-dash: Three dashes "- - -"
-- Bold
-- Headings
+# Backlog for this page
 - Update process
 - Editing

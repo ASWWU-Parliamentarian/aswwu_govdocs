@@ -9,12 +9,14 @@ The documents in this repository are built on a document preparation software an
 - **Separation of presentation from content**: LaTeX attempts to follow the design philosophy of separating presentation from content, so that authors can focus on the content of what they are writing without attending simultaneously to its visual appearance. In preparing a LaTeX document, the author specifies the logical structure using simple, familiar concepts such as chapter, section, table, figure, etc., and lets the LaTeX system handle the formatting and layout of these structures. As a result, it encourages the separation of the layout from the content — while still allowing manual typesetting adjustments whenever needed. This concept is similar to the mechanism by which many word processors allow styles to be defined globally for an entire document, or the use of Cascading Style Sheets in styling HTML documents.
 - **Custom and consistent presentation:** LaTeX is a markup language that handles typesetting and rendering. It can be configured with custom macros that defines new environments and commands. This allows for design flexibility to obtain a professional and well-organized layout of the governing documents. Additionally, the style and layout of documents can be easily replicated to other documents for consistently of appearance and navigation.
 
-### Important Syntax
+### Useful LaTeX Commands
 | Syntax    | Description   | Usage Example   |
 | --------- | ------------- | --------- |
-| \title[x] |Title section with title| \title[LaTeX] LaTeX is awesome! |
-| \title |Title section with no title| \title LaTeX is awesome! |
-| \section[x] |Section with no title| \section[LaTex] LaTeX is awesome! |
+| \$        | To type a dollar sign, you must have a backslash before the dollar sign symbol | The Atlas must retain \$3000 of income in... |
+| \&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \& Resource Management |
+| \nth{#}    | To type have a nicely typeset 1st or 2nd, with the postfix as a superscript, use this command | The \nth{3} and \nth{4} time someone goes... |
+| \textit{X} | Italics can be typeset by placing the desired italicized words in place of "X" | Refer to \textit{Robert's Rules of Order} for the process to...|
+
 
 # Structure
 

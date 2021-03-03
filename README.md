@@ -1,5 +1,3 @@
-# Governing Docs Update
-
 # General Information
 
 This repository is a collection of the governing documents of the Associated Students of Walla Walla University. It is designed and hosted in such a way that encourages consistent and trackable amendments to the documents.
@@ -12,6 +10,9 @@ The documents in this repository are built on a document preparation software an
 - **Custom and consistent presentation:** LaTeX is a markup language that handles typesetting and rendering. It can be configured with custom macros that defines new environments and commands. This allows for design flexibility to obtain a professional and well-organized layout of the governing documents. Additionally, the style and layout of documents can be easily replicated to other documents for consistently of appearance and navigation.
 
 ### Important Syntax
+| Syntax    | Description   |
+| --------- | ------------- |
+| \title    |Title section with no title|
 
 # Structure
 

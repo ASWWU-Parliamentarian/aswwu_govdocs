@@ -85,3 +85,4 @@ The repository is split up into the following sections.
 # Backlog for this page
 - Update process
 - Editing
+- Helpline

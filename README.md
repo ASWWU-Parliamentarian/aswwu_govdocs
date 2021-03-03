@@ -22,6 +22,7 @@ Within this framework, there are 6 levels of section hierachies:
 | 5 | Subparagraph | \subparagraph[X] | \subparagraph | \subparagraph[Mauris] Lorem ipsum dolor sit amet |
 
 Therefore, below is a snippet of a passage from the Bylaws (not updated) to illustrate how this syntax is used:
+`
     \article[External Relations]
             \section[Adventist Intercollegiate Association]
                 \subsection[Purpose]
@@ -38,7 +39,7 @@ Therefore, below is a snippet of a passage from the Bylaws (not updated) to illu
                     \paragraph Exceptions may be approved by Senate when circumstances warrant and when requested by the President.
                     \paragraph A complete list of proposed delegates must be submitted to Senate for ratification by the next full week after ASWWU elections.
                     \paragraph The ASWWU Sponsor must attend the convention with the ASWWU delegates, but in cases where this is not possible, he/she should appoint a faculty or staff member as the trip advisor.
-
+`
 
 ### Useful LaTeX Commands
 | Title     | Syntax    | Description   | Usage Example   |

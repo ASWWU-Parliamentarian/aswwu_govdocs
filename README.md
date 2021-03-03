@@ -9,6 +9,15 @@ The documents in this repository are built on a document preparation software an
 - **Separation of presentation from content**: LaTeX attempts to follow the design philosophy of separating presentation from content, so that authors can focus on the content of what they are writing without attending simultaneously to its visual appearance. In preparing a LaTeX document, the author specifies the logical structure using simple, familiar concepts such as chapter, section, table, figure, etc., and lets the LaTeX system handle the formatting and layout of these structures. As a result, it encourages the separation of the layout from the content — while still allowing manual typesetting adjustments whenever needed. This concept is similar to the mechanism by which many word processors allow styles to be defined globally for an entire document, or the use of Cascading Style Sheets in styling HTML documents.
 - **Custom and consistent presentation:** LaTeX is a markup language that handles typesetting and rendering. It can be configured with custom macros that defines new environments and commands. This allows for design flexibility to obtain a professional and well-organized layout of the governing documents. Additionally, the style and layout of documents can be easily replicated to other documents for consistently of appearance and navigation.
 
+### Section Hierarchy
+
+Within this framework, there are 6 levels of section hierachies:
+| Depth | Section Name | Syntax with Title | Syntax without Title | Usage example |
+| ------| ----------- | ------------ | ---------- | ------------ |
+| 0 | Title | \title[X] | \title | \title[Introduction] This is an introduction... / \title This is an introduction... |
+| 1 | Article | \article[X] | \article | \article[Assembly] Now, regarding assemblies... |
+
+
 ### Useful LaTeX Commands
 | Title     | Syntax    | Description   | Usage Example   |
 |---------  | --------- | ------------- | --------- |

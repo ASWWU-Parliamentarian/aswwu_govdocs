@@ -13,7 +13,7 @@ The documents in this repository are built on a document preparation software an
 | Syntax    | Description   | Usage Example   |
 | --------- | ------------- | --------- |
 | \$        | To type a dollar sign, you must have a backslash before the dollar sign symbol | The Atlas must retain \$3000 of income in... |
-| \&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \& Resource Management |
+| \\&        | To type an ampersand symbol (&), you must have a backslash before it | Inventory \& Resource Management |
 | \nth{#}    | To type have a nicely typeset 1st or 2nd, with the postfix as a superscript, use this command | The \nth{3} and \nth{4} time someone goes... |
 | \textit{X} | Italics can be typeset by placing the desired italicized words in place of "X" | Refer to \textit{Robert's Rules of Order} for the process to...|
 

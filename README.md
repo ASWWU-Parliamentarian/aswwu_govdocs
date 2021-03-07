@@ -7,6 +7,7 @@ This repository is a collection of the governing documents of the Associated Stu
 ## Commit Titles & Description
 Title structure: 
 ```[tag]: [senate ##.#] [bill ID], [bill name] - [bill sponsor]```
+
 Example: 
 ```A: 72.3 G.L. 5, Example Bill Title - Firstname Lastname```
 ### Tags

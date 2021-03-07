@@ -2,6 +2,10 @@
 
 This repository is a collection of the governing documents of the Associated Students of Walla Walla University. It is designed and hosted in such a way that encourages consistent and trackable amendments to the documents.
 
+# Repository Procedures
+
+The expectation is that the...
+
 ## About LaTeX
 
 The documents in this repository are built on a document preparation software and markup language called [LaTeX](https://en.wikipedia.org/wiki/LaTeX), which has the following benefits:

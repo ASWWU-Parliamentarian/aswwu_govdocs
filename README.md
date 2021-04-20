@@ -15,7 +15,8 @@ Example:
 - M: Maintenance
 - D: Documentation
 - F: Formatting
-
+### Description
+- Copy the preamble of the bill into the description box when commiting changes.
 
 ## About LaTeX
 

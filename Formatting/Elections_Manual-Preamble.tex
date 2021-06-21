@@ -1,0 +1,254 @@
+% ASWWU Elections Manual Preamble
+% Originally designed by Eric Welch, ASWWU President 2020-21
+% Contact Eric via eric@strond.com or (360) 420-6019
+
+\documentclass[10pt, letterpaper]{article}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[none]{hyphenat}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage[super]{nth}
+\usepackage{tocloft}
+\usepackage{setspace}
+
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
+
+\fancyhf{}
+%\fancyhead[L]{Associated Students of Walla Walla University}
+\fancyfoot[L]{\fontsize{7}{12} \selectfont Last compiled: \today\ \currenttime}
+\fancyfoot[C,CO]{Page \thepage}
+\pagestyle{fancy}
+\fancyhead[L]{\includegraphics[scale=0.2]{Formatting/Logo_ASWWU-Black}}
+\renewcommand{\headrulewidth}{0.25pt}
+
+\usepackage{hyperref}
+
+\renewcommand{\theparagraph}{\thesubsubsection.\arabic{paragraph}}
+\renewcommand{\thesubparagraph}{\theparagraph.\arabic{subparagraph}}
+
+\usepackage{lineno, blindtext, color}
+\linenumbers
+\renewcommand\thelinenumber{\color{gray}\arabic{linenumber}}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+\usepackage{parskip}
+
+\makeatletter
+
+\def\article[#1]{
+    \ifhmode\par\fi
+    \removelastskip
+    \vskip 1ex\goodbreak
+    \refstepcounter{section}%
+    \noindent
+    \begingroup
+    \leavevmode\Large\bfseries\raggedright
+    \rlap{\thesection}%
+    \hspace{8mm} Article \Roman{section}. \hspace{0.1mm} %
+    #1
+    \par
+    \endgroup
+    \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+    %\vskip 0ex \nobreak
+    %\removelastskip
+    \leftskip=12mm%\relax%
+}
+
+\def\section{\@ifnextchar[\sectionWithTitle\sectionNoTitle}
+\def\sectionWithTitle[#1]{
+    \ifhmode\par\fi
+    \removelastskip
+    \vskip 1ex\goodbreak
+    \refstepcounter{subsection}%
+    \noindent
+    \begingroup
+    \leavevmode\large\bfseries\raggedright
+    \rlap{\thesubsection}%
+    \hspace{8mm} %Section \arabic{subsection}. \hspace{0.1mm} %
+    #1
+    %\par
+    \endgroup
+    \addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}#1}
+    %\vskip 0ex \nobreak
+    %\removelastskip
+    \leftskip=10mm%\relax%
+    \par
+    \leftskip=20mm
+}
+\def\sectionNoTitle{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=4mm
+    \vskip 1ex\goodbreak
+    \refstepcounter{subsection}%
+    \noindent
+    \begingroup
+    \leavevmode\large\bfseries\raggedright
+    \rlap{\thesubsection}%
+    \hspace{8mm} Section \arabic{subsection}. \hspace{0.1mm} %
+    %\par
+    \endgroup
+    \addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}}
+    %\removelastskip
+    %\leftskip=18mm%\relax%
+    %\vskip -4.27ex \nobreak
+    \hangindent=16mm
+}
+
+\def\subsection{\@ifnextchar[\subsectionWithTitle\subsectionNoTitle}
+\def\subsectionWithTitle[#1]{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=22mm
+    \vskip 0.7ex\goodbreak
+    \refstepcounter{subsubsection}%
+    \noindent
+    \begingroup
+    \leavevmode\normalsize\bfseries\raggedright
+    \rlap{\thesubsubsection}%
+    \hspace{12mm} %Article \Roman{subsection}. \hspace{0.1mm} %
+    #1
+    %\par
+    \endgroup
+    %\addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsubsection}#1}
+    \hspace{-4mm}
+    %\vskip 0ex \nobreak
+    %\removelastskip
+    %\leftskip=4mm%\relax%
+    \hangindent=16mm
+}
+\def\subsectionNoTitle{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=22mm
+    \vskip 0.7ex\goodbreak
+    \refstepcounter{subsubsection}%
+    \noindent
+    \begingroup
+    \leavevmode\normalsize\raggedright
+    \rlap{\thesubsubsection}%
+    \hspace{12mm} %Article \Roman{subsection}. \hspace{0.1mm} %
+    %\par
+    \endgroup
+    %\addcontentsline{toc}{subsubsection}{\protect\numberline{\thesubsubsection}}
+    %\removelastskip
+    %\leftskip=23mm%\relax%
+    %\vskip -4.21ex \nobreak
+    \hangindent=16mm
+    %\addtolength{\leftskip}{1cm}
+}
+
+\def\paragraph{\@ifnextchar[\paragraphWithTitle\paragraphNoTitle}
+\def\paragraphWithTitle[#1]{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=12mm
+    \vskip 2ex\goodbreak
+    \refstepcounter{paragraph}%
+    \noindent
+    \begingroup
+    \leavevmode\large\bfseries\raggedright
+    %\rlap{\theparagraph}%
+    %\hspace{16mm} %Article \Roman{subsection}. \hspace{0.1mm} %
+    #1
+    %\par
+    \endgroup
+    %\addcontentsline{toc}{section}{\protect\numberline{\theparagraph}#1}
+    %\vskip 0ex \nobreak
+    %\removelastskip
+    \leftskip=4mm%\relax%
+}
+\def\paragraphNoTitle{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=12mm
+    \vskip -1ex\goodbreak
+    \refstepcounter{paragraph}%
+    \noindent
+    \begingroup
+    \leavevmode\normalsize\raggedright
+    \rlap{\theparagraph}%
+    \hspace{16mm} %Article \Roman{subsection}. \hspace{0.1mm} %
+    %\par
+    \endgroup
+    %\addcontentsline{toc}{paragraph}{\protect\numberline{\theparagraph}}
+    %\removelastskip
+    %\leftskip=30mm%\relax%
+    %\vskip -4.21ex \nobreak
+    \hangindent=20mm
+}
+
+\def\subparagraph{\@ifnextchar[\subparagraphWithTitle\subparagraphNoTitle}
+\def\subparagraphWithTitle[#1]{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=32mm
+    \vskip -1ex\goodbreak
+    \refstepcounter{subparagraph}%
+    \noindent
+    \begingroup
+    \leavevmode\normalsize\bfseries\raggedright
+    \rlap{\thesubparagraph}%
+    \hspace{18mm} %Article \Roman{subsection}. \hspace{0.1mm} %
+    #1
+    %\par
+    \endgroup
+    %\addcontentsline{toc}{subparagraph}{\protect\numberline{\thesubparagraph}#1}
+    %\vskip 0ex \nobreak
+    %\removelastskip
+    \leftskip=4mm%\relax%
+}
+\def\subparagraphNoTitle{
+    \ifhmode\par\fi
+    \removelastskip
+    \leftskip=32mm
+    \vskip -1ex\goodbreak
+    \refstepcounter{subparagraph}%
+    \noindent
+    \begingroup
+    \leavevmode\normalsize\raggedright
+    \rlap{\thesubparagraph}%
+    \hspace{18mm} %Article \Roman{subsection}. \hspace{0.1mm} %
+    %\par
+    \endgroup
+    %\addcontentsline{toc}{subparagraph}{\protect\numberline{\thesubparagraph}}
+    %\removelastskip
+    %\leftskip=30mm%\relax%
+    %\vskip -4.21ex \nobreak
+    \hangindent=20mm
+}
+
+\makeatother
+
+\parindent=0pt
+
+\fancyhead[R]{Elections Manual}
+
+\renewcommand*\contentsname{Table of Contents}
+
+\begin{document}
+
+\nolinenumbers
+\begin{titlepage}
+    \begin{center}
+        \vspace*{5cm}
+  		\includegraphics[width=0.65\textwidth]{Formatting/Logo_ASWWU-Black}\\
+        \LARGE Governing Documents\\ \Huge \textbf{Elections Manual}
+        \vfill
+        \normalsize Last compiled: \today\ \currenttime
+             
+    \end{center}
+ \end{titlepage}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\linenumbers
+\newpage
